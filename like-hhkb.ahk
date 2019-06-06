@@ -1,6 +1,7 @@
 #UseHook, On
 #NoEnv
 #SingleInstance, force
+#InstallKeybdHook
 RCtrl::Return
 RCtrl & n::Send,{NumpadAdd}
 RCtrl & k::Send,{Home}
