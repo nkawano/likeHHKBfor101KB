@@ -7,11 +7,14 @@ These scripts make normal 101 keyboard to like hhkb lite extended mode. For wind
 - Have administrator privilege.(Edit registry)
 
 ## Install
-1. Run convCapsCtrl.reg
-2. Run like-hhkb.ahk with AutoHotkey
+1. Run convCapsCtrl.reg. (Need Windows reboot.)
+2. Run like-hhkb.ahk with AutoHotkey.
 
 ## What happend
 - By registry, Capslock to LeftControl, And Original LeftControl to RightControl.
 - By AutoHotkey, part of hhkb function keys assigned.( arrows, PageUp,Dn, Home, End, +(plus key))
 
 
+## Uninstall
+1. Run revertCapsCtrl.reg. (Need Windows reboot.)
+2. Stop (or do not run) like-hhkb.ahk.
